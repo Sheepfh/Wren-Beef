@@ -1,0 +1,12 @@
+FileVersion = 1
+Dependencies = {corlib = "*", corlib = "*", corlib = "*"}
+
+[Project]
+Name = "Wren_beef"
+TargetType = "BeefLib"
+StartupObject = "Wren-beef.Program"
+
+[Configs.Debug.Win64]
+CLibType = "DynamicDebug"
+LibPaths = ["$(ProjectDir)/dist/x64/wren.lib"]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/x64/*.dll\")"]
