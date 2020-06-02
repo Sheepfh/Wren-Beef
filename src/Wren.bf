@@ -287,23 +287,23 @@ namespace Wren_beef
 
 	struct WrenForeignClassMethods
 	{
-		Wren.ForeignMethodFn allocate;
-		Wren.FinalizerFn finalize;
+		public Wren.ForeignMethodFn allocate;
+		public Wren.FinalizerFn finalize;
 	}
 
 	struct WrenConfiguration
 	{
-		Wren.ReallocateFn reallocateFn;
-		Wren.ResolveModuleFn resolveModuleFn;
-		Wren.LoadModuleFn loadModuleFn;
-		Wren.BindForeignMethodFn bindForeignMethodFn;
-		Wren.BindForeignClassFn bindForeignClassFn;
-		Wren.WriteFn writeFn;
-		Wren.ErrorFn errorFn;
+		public Wren.ReallocateFn reallocateFn;
+		public Wren.ResolveModuleFn resolveModuleFn;
+		public Wren.LoadModuleFn loadModuleFn;
+		public Wren.BindForeignMethodFn bindForeignMethodFn;
+		public Wren.BindForeignClassFn bindForeignClassFn;
+		public Wren.WriteFn writeFn;
+		public Wren.ErrorFn errorFn;
 
-		uint64 initialHeapSize;
-		uint64 minHeapSize;
-		int heapGrowthPercent;
-		void* userData;
+		public uint64 initialHeapSize;
+		public uint64 minHeapSize;
+		public int heapGrowthPercent;
+		public void* userData;
 	}
 }
