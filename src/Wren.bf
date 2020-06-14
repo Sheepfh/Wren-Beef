@@ -36,7 +36,7 @@ namespace Wren_beef
 
 	class Wren
 	{
-		public function void ReallocateFn(void* memory, uint64 newSize);
+		public function void* ReallocateFn(void* memory, uint64 newSize);
 		public function void ForeignMethodFn(WrenVM* vm);
 		public function void FinalizerFn(void* data);
 		public function char8* ResolveModuleFn(WrenVM* vm, char8* importer, char8* name);

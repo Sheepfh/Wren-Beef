@@ -10,3 +10,12 @@ StartupObject = "Wren-beef.Program"
 CLibType = "DynamicDebug"
 LibPaths = ["$(ProjectDir)/dist/x64/wren.lib"]
 PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/x64/*.dll\")"]
+
+[Configs.Release.Win64]
+CLibType = "DynamicDebug"
+
+[Configs.Paranoid.Win64]
+CLibType = "DynamicDebug"
+
+[Configs.Test.Win64]
+CLibType = "DynamicDebug"

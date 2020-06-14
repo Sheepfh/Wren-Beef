@@ -4,8 +4,8 @@ LastPlatform = "Win64"
 RecentFilesList = ["f:\\GitRepos\\Wren\\src\\Wren.bf"]
 
 [MainWindow]
-X = 64
-Y = 6
+X = -1937
+Y = -87
 Width = 1200
 Height = 1024
 ShowKind = "Maximized"
@@ -40,15 +40,6 @@ RequestedHeight = 150.0
 SizePriority = 150.0
 DefaultDocumentsTabbedView = true
 Type = "TabbedView"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-Active = true
-TabLabel = "Wren.bf"
-TabWidth = 74.66666
-Type = "SourceViewPanel"
-FilePath = "f:\\GitRepos\\Wren\\src\\Wren.bf"
-CursorPos = 230
-ProjectName = "Wren_beef"
 
 [[MainDockingFrame.DockedWidgets]]
 RequestedWidth = 250.0
